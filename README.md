@@ -1,7 +1,7 @@
 # Smart Surveillance System using Computer Vision
 
 A deep learning–based **Smart Surveillance System** that performs **real-time Fire & Smoke Detection** and **Garbage Detection** using computer vision techniques.  
-The system is designed for **smart cities, campuses, and public safety monitoring** applications.
+The system is designed for **smart cities, campuses, and public safety monitoring** applications. This projects uses completely customised Datasets.
 
 ---
 
@@ -40,4 +40,48 @@ The system leverages **YOLO-based object detection models** to provide fast and 
 ---
 
 ## 📁 Project Structure
+
+Smart-Surveillance-System
+│
+├── fire_smoke_detection
+│ ├── train.py
+│ ├── inference.py
+│ └── README.md
+│
+├── garbage_detection
+│ ├── train.py
+│ ├── inference.py
+│ └── README.md
+
+
+---
+
+## 🔥 Fire & Smoke Detection Module
+
+- Detects fire and smoke in real time using a YOLO-based model
+- Useful for early hazard detection and emergency alert systems
+- Works with images, videos, and live camera feeds
+
+📂 See: `fire_smoke_detection/README.md` for details
+
+---
+
+## 🗑️ Garbage Detection Module
+
+- Detects garbage and waste objects in public spaces
+- Designed for smart city cleanliness and waste monitoring
+- Supports real-time video and CCTV feeds
+
+📂 See: `garbage_detection/README.md` for details
+
+---
+
+## ▶️ How to Run (General)
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/Smart-Surveillance-System.git
+   cd Smart-Surveillance-System
+
+
 
